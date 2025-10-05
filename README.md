@@ -47,6 +47,9 @@ ollama-tool "你的问题" --no-stream
 ```bash
 # 上传图片
 ollama-tool "分析这张图片" --image path/to/image.jpg
+```
+
+
 
 # 上传多个图片
 ollama-tool "比较这两张图片" --image image1.jpg --image image2.jpg
@@ -97,6 +100,8 @@ response = client.chat(messages)
 # 列出可用模型
 models = client.list_models()
 ```
+
+
 
 ## API文档
 
