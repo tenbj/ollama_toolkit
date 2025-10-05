@@ -46,6 +46,7 @@ Thumbs.db
 .cache/
 
 # Testing
+test/
 coverage/
 *.cover
 .coverage
