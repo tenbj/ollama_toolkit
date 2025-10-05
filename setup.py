@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="ollama_toolkit",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Elias Liu",
+    author_email="elias.liu120@gmail.com",
     description="一个用于调用Ollama模型的Python工具包",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ollama_toolkit",  # 替换为实际的仓库URL
+    url="https://github.com/tenbj/ollama_toolkit",  # 替换为实际的仓库URL
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
