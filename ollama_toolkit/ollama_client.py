@@ -7,7 +7,7 @@ class OllamaClient:
     """
     Ollama客户端，用于调用本地或远程的Ollama模型，并支持流式输出。
     """
-    def __init__(self, base_url="http://localhost:11434", default_model="llama3"):
+    def __init__(self, base_url="http://localhost:11434", default_model="qwen3"):
         """
         初始化Ollama客户端
         

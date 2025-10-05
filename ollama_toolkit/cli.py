@@ -29,7 +29,7 @@ def main():
     args = parser.parse_args()
     
     # 创建客户端
-    client = OllamaClient(base_url=args.url, default_model=args.model or "llama3")
+    client = OllamaClient(base_url=args.url, default_model=args.model or "qwen3")
     
     # 列出模型
     if args.list_models:
